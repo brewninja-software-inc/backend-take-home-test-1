@@ -22,7 +22,7 @@ When you have completed the challenge, notify your point of contact at Brew Ninj
 
 2. For scoring purposes, the suits are unordered while the values are ordered as listed above; `2` is lowest value, `ace` is highest value.
 
-3. A poker hand consists of 5 cards dealt from the deck.  Hands are ranked by the following partial order from lowest to highest:
+3. A poker hand consists of 5 cards dealt from the deck.  **For the purposes of this test, you do not have to implement a shuffling algorithm**; it is sufficient to specifically select two sets of 5 cards each for the two hands.  Hands are ranked by the following partial order from lowest to highest:
 
     - **HIGH CARD**...  Hands which do not fit any higher category are ranked by the value of their highest card.  If the highest cards have the same value, the hands are ranked by the next highest, and so on.
     - **PAIR**...  2 of the 5 cards in the hand have the same value.  Hands which both contain a pair are ranked by the value of the cards forming the pair.  If these values are the same, the hands are ranked by the values of the cards not forming the pair, in decreasing order.
