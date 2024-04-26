@@ -39,4 +39,4 @@ When you have completed the challenge, notify your point of contact at Brew Ninj
    - `BLACK: 2H 3D 5S 9C KD  &  WHITE: 2C 3H 4S 8C KH` => `BLACK WINS... high card: 9 (both hands have K, so next the highest card is evaluated)`
    - `BLACK: 2H 3D 5S 9C KD  &  WHITE: 2D 3H 5C 9S KH` => `TIE`
 
-    Please note that the above should not be treated as console input and output.  They are merely examples for illustrative purposes.
+    Please note that the above should not be treated as console input and output.  They are merely examples for illustrative purposes.  String parsing is not the intent of this exercise; as previously mentioned, it is sufficient to specifically select two sets of exactly 5 cards each for the two hands.
